@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forca sobre o Pantanal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Jogo da Forca: Pantanal</h1>
+    <div id="game-container">
+        <div id="game-info">
+            <p id="word-display">_ _ _ _ _ _ _</p>
+            <p id="chances">Chances Restantes: 6</p>
+            <p id="hint">Dicas Restantes: 3</p>
+        </div>
+        <div id="actions">
+            <button id="hint-button">Mostrar Dica</button>
+            <input type="text" id="letter-input" maxlength="1" placeholder="Digite uma letra">
+            <button id="guess-button">Adivinhar</button>
+        </div>
+        <div id="hints">
+            <!-- Dicas serão exibidas aqui -->
+        </div>
+        <div id="status">
+            <p id="status-text"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
